@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML - Mi Proyecto Web</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Mi Proyecto Web</h1>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+                <li><a href="seguridad.html">Seguridad</a></li>
+                <li><a href="html_etiquetas.html">Etiquetas HTML</a></li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <center>
+    <main>
+        <section class="etiquetas">
+            <h2>Explicación de las Principales Etiquetas HTML Utilizadas en la Creación del Website</h2>
+            <div class="etiqueta">
+                <h3>&lt;!DOCTYPE html&gt;</h3>
+                <p>Declara el tipo de documento y la versión de HTML que se está utilizando.</p>
+                <code>&lt;!DOCTYPE html&gt;</code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;html&gt;</h3>
+                <p>La etiqueta raíz que envuelve todo el contenido HTML.</p>
+                <code>&lt;html lang="es"&gt;</code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;head&gt;</h3>
+                <p>Contiene metadatos, enlaces a hojas de estilo, y el título del documento.</p>
+                <code>
+                    &lt;head&gt;<br>
+                    &nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                    &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                    &nbsp;&nbsp;&lt;title&gt;Mi Proyecto Web&lt;/title&gt;<br>
+                    &nbsp;&nbsp;&lt;link rel="stylesheet" href="css/styles.css"&gt;<br>
+                    &lt;/head&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;body&gt;</h3>
+                <p>Contiene todo el contenido visible de la página web.</p>
+                <code>&lt;body&gt;<br>&nbsp;&nbsp;...<br>&lt;/body&gt;</code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;header&gt;</h3>
+                <p>Define un encabezado para un documento o sección, y usualmente contiene elementos como el logo, el menú de navegación, y el título del sitio.</p>
+                <code>
+                    &lt;header&gt;<br>
+                    &nbsp;&nbsp;&lt;h1&gt;Bienvenido a Mi Proyecto Web&lt;/h1&gt;<br>
+                    &nbsp;&nbsp;&lt;nav&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="index.html"&gt;Inicio&lt;/a&gt;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+                    &nbsp;&nbsp;&lt;/nav&gt;<br>
+                    &lt;/header&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;nav&gt;</h3>
+                <p>Define una sección de navegación con enlaces a otras partes del sitio web.</p>
+                <code>
+                    &lt;nav&gt;<br>
+                    &nbsp;&nbsp;&lt;ul&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="index.html"&gt;Inicio&lt;/a&gt;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;...<br>
+                    &nbsp;&nbsp;&lt;/ul&gt;<br>
+                    &lt;/nav&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;main&gt;</h3>
+                <p>Contiene el contenido principal del documento.</p>
+                <code>
+                    &lt;main&gt;<br>
+                    &nbsp;&nbsp;&lt;section&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Introducción&lt;/h2&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Bienvenido a mi proyecto web...&lt;/p&gt;<br>
+                    &nbsp;&nbsp;&lt;/section&gt;<br>
+                    &lt;/main&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;section&gt;</h3>
+                <p>Define una sección en el documento.</p>
+                <code>
+                    &lt;section&gt;<br>
+                    &nbsp;&nbsp;&lt;h2&gt;Conceptos Básicos de Seguridad Informática&lt;/h2&gt;<br>
+                    &nbsp;&nbsp;&lt;div class="image"&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="Imagenes/imagen3.jpg" alt="Conceptos Básicos de Seguridad Informática" style="width: 400px; height: auto;"&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="text"&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Conceptos Básicos de Seguridad Informática&lt;/h3&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Ilustración que representa los conceptos básicos de seguridad informática...&lt;/p&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                    &nbsp;&nbsp;&lt;/div&gt;<br>
+                    &lt;/section&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;</h3>
+                <p>Encabezados que definen títulos y subtítulos de diferentes niveles.</p>
+                <code>
+                    &lt;h1&gt;Bienvenido a Mi Proyecto Web&lt;/h1&gt;<br>
+                    &lt;h2&gt;Conceptos Básicos de Seguridad Informática&lt;/h2&gt;<br>
+                    &lt;h3&gt;Ilustración que representa los conceptos básicos...&lt;/h3&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;p&gt;</h3>
+                <p>Define un párrafo.</p>
+                <code>
+                    &lt;p&gt;Bienvenido a mi proyecto web. En este sitio, exploraremos varios temas relevantes sobre tecnología y seguridad informática...&lt;/p&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;img&gt;</h3>
+                <p>Incorpora una imagen en el documento.</p>
+                <code>
+                    &lt;img src="Imagenes/imagen3.jpg" alt="Conceptos Básicos de Seguridad Informática" style="width: 400px; height: auto;"&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;a&gt;</h3>
+                <p>Define un hipervínculo para enlazar a otras páginas o recursos.</p>
+                <code>
+                    &lt;a href="https://www.youtube.com/watch?v=uFTATNNgHfA" target="_blank"&gt;Ver video sobre seguridad informática&lt;/a&gt;
+                </code>
+            </div>
+            <div class="etiqueta">
+                <h3>&lt;footer&gt;</h3>
+                <p>Define un pie de página para el documento o sección.</p>
+                <code>
+                    &lt;footer&gt;<br>
+                    &nbsp;&nbsp;&lt;p&gt;&copy; 2024 Mi Sitio Web&lt;/p&gt;<br>
+                    &lt;/footer&gt;
+                </code>
+            </div>
+            <div class="text">
+                <div class="video-link">
+                    <a href="https://www.youtube.com/watch?v=JBCDIsM-Fks" target="_blank">
+                        Listados de HTML, su funcion, etc...
+                    </a>
+                </div>
+        </section>
+    </main>
+    </center>
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
